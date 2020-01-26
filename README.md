@@ -14,8 +14,9 @@ This is a pretty basic monitor to get live updates when a product is updated or 
 
 ## Setup Docker
 - Edit the config file in `/app/config.js`
-- `Docker build .`
-- `Docker run -d <IMAGE-NAME>`
+- Start a mongodb instance using `docker run -d -p 27017:27017 mongo:4.2`
+- `docker build .`
+- `docker run -d <IMAGE-NAME>`
 
 ## Todo
 - Make the query value in config nicer 😆

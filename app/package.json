@@ -9,7 +9,7 @@
   "author": "incizzle",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.2",
     "mongoose": "^5.8.9"
   }
 }
